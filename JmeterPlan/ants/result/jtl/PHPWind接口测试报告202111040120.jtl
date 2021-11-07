@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="47" it="0" lt="45" ct="17" ts="1635960042091" s="false" lb="1.登录接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1413" sby="402" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /您已经顺利登录/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:42 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=0%091635960042%09%2Fphpwind%2Flogin.php%3F; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Set-Cookie: b539c_lastpos=other; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091635960042%09%2Fphpwind%2Flogin.php%3F; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Content-Length: 817
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Content-Length: 124
+Host: localhost
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&apos;Content-Type&apos; content=&apos;text/html; charset=utf-8&apos; /&gt;&lt;title&gt;PHPwind&lt;/title&gt;&lt;style type=&apos;text/css&apos;&gt;P,BODY{FONT-FAMILY:tahoma,arial,sans-serif;FONT-SIZE:11px;}A { TEXT-DECORATION: none;}a:hover{ text-decoration: underline;}TD { BORDER-RIGHT: 1px; BORDER-TOP: 0px; FONT-SIZE: 16pt; COLOR: #000000;}&lt;/style&gt;&lt;body&gt;
+
+&lt;table style=&apos;TABLE-LAYOUT:fixed;WORD-WRAP: break-word&apos;&gt;&lt;tr&gt;&lt;td&gt;Cannot use database&lt;br&gt;&lt;br&gt;&lt;b&gt;The URL Is&lt;/b&gt;:&lt;br&gt;http://localhost/phpwind/login.php?&lt;br&gt;&lt;br&gt;&lt;b&gt;MySQL Server Error&lt;/b&gt;:&lt;br&gt;  (  )  &lt;a target=&apos;_blank&apos; href=&apos;http://faq.phpwind.net/mysql.php?id=&apos;&gt;&amp;#26597;&amp;#30475;&amp;#38169;&amp;#35823;&amp;#30456;&amp;#20851;&amp;#20449;&amp;#24687;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;You Can Get Help In&lt;/b&gt;:&lt;br&gt;&lt;a target=&apos;_blank&apos; href=&apos;http://www.phpwind.net&apos;&gt;&lt;b&gt;http://www.phpwind.net&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">forward=&amp;jumpurl=http%3A%2F%2Flocalhost%2FPHPWIND%2Findex.php&amp;step=2&amp;lgt=0&amp;pwuser=a067&amp;pwpwd=qwe123&amp;hideid=0&amp;cktime=31536000</queryString>
+  <java.net.URL>http://localhost/phpwind/login.php?</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="15" ct="0" ts="1635960042165" s="true" lb="2.获取发帖VerifyCode" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1223" sby="349" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:42 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=0%091635960042%09%2Fphpwind%2Fpost.php%3Ffid%3D8; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Content-Length: 821
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_lastpos=other; b539c_lastvisit=0%091635960042%09%2Fphpwind%2Flogin.php%3F</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/phpwind/post.php?fid=8</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="0" ts="1635960042182" s="false" lb="3.发帖接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1223" sby="803" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /发帖完毕点击进入主题列表 /</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:42 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=0%091635960042%09%2Fphpwind%2Fpost.php%3Ffid%3D8; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Content-Length: 821
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Content-Length: 426
+Host: localhost
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&apos;Content-Type&apos; content=&apos;text/html; charset=utf-8&apos; /&gt;&lt;title&gt;PHPwind&lt;/title&gt;&lt;style type=&apos;text/css&apos;&gt;P,BODY{FONT-FAMILY:tahoma,arial,sans-serif;FONT-SIZE:11px;}A { TEXT-DECORATION: none;}a:hover{ text-decoration: underline;}TD { BORDER-RIGHT: 1px; BORDER-TOP: 0px; FONT-SIZE: 16pt; COLOR: #000000;}&lt;/style&gt;&lt;body&gt;
+
+&lt;table style=&apos;TABLE-LAYOUT:fixed;WORD-WRAP: break-word&apos;&gt;&lt;tr&gt;&lt;td&gt;Cannot use database&lt;br&gt;&lt;br&gt;&lt;b&gt;The URL Is&lt;/b&gt;:&lt;br&gt;http://localhost/phpwind/post.php?fid=8&lt;br&gt;&lt;br&gt;&lt;b&gt;MySQL Server Error&lt;/b&gt;:&lt;br&gt;  (  )  &lt;a target=&apos;_blank&apos; href=&apos;http://faq.phpwind.net/mysql.php?id=&apos;&gt;&amp;#26597;&amp;#30475;&amp;#38169;&amp;#35823;&amp;#30456;&amp;#20851;&amp;#20449;&amp;#24687;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;You Can Get Help In&lt;/b&gt;:&lt;br&gt;&lt;a target=&apos;_blank&apos; href=&apos;http://www.phpwind.net&apos;&gt;&lt;b&gt;http://www.phpwind.net&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_lastpos=other; b539c_lastvisit=0%091635960042%09%2Fphpwind%2Fpost.php%3Ffid%3D8</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">magicname=&amp;magicid=&amp;verify=%24%7BverifyCode%7D&amp;atc_title=jmeter%E5%8F%91%E9%80%81%E7%9A%84%E6%A0%87%E9%A2%9850945&amp;atc_iconid=0&amp;atc_content=jmeter%E5%8F%91%E9%80%81%E7%9A%84%E5%86%85%E5%AE%B950945&amp;atc_autourl=1&amp;atc_usesign=1&amp;atc_convert=1&amp;atc_rvrc=0&amp;atc_enhidetype=rvrc&amp;atc_money=0&amp;atc_credittype=money&amp;atc_desc1=&amp;attachment_1=&amp;att_special1=0&amp;att_ctype1=money&amp;atc_needrvrc1=0&amp;step=2&amp;pid=&amp;action=new&amp;fid=8tid&amp;article=0&amp;special=0</queryString>
+  <java.net.URL>http://localhost/phpwind/post.php?fid=8</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="0" ts="1635960042199" s="true" lb="4.获取登出verify" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1291" sby="352" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:42 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=F; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091635960042%09%2FPHPWIND%2Fthread.php%3F; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Content-Length: 818
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_lastpos=other; b539c_lastvisit=0%091635960042%09%2Fphpwind%2Fpost.php%3Ffid%3D8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/thread.php?</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="0" ts="1635960042215" s="true" lb="5.获取随机fid" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1293" sby="341" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:42 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=index; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091635960042%09%2FPHPWIND%2Findex.php%3F; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Content-Length: 817
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_lastpos=F; b539c_lastvisit=0%091635960042%09%2FPHPWIND%2Fthread.php%3F</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/index.php</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="0" ts="1635960042231" s="true" lb="6.获取随机tid" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1304" sby="351" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:42 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=F0; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091635960042%09%2FPHPWIND%2Fthread.php%3Ffid%3D0; expires=Thu, 03-Nov-2022 17:20:42 GMT; path=/
+Content-Length: 823
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_lastpos=index; b539c_lastvisit=0%091635960042%09%2FPHPWIND%2Findex.php%3F</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/thread.php?fid=0</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="1" ts="1635960050265" s="true" lb="7.回帖接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1292" sby="936" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:50 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=other; expires=Thu, 03-Nov-2022 17:20:50 GMT; path=/
+Set-Cookie: b539c_lastvisit=8%091635960050%09%2FPHPWIND%2Fpost.php%3F; expires=Thu, 03-Nov-2022 17:20:50 GMT; path=/
+Content-Length: 816
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Content-Length: 565
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_lastpos=F0; b539c_lastvisit=0%091635960042%09%2FPHPWIND%2Fthread.php%3Ffid%3D0</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">magicname=&amp;magicid=&amp;verify=%24%7BverifyCode%7D&amp;atc_title=Re%3A%E8%BF%99%E6%98%AF%E5%9B%9E%E5%B8%96%E7%9A%84%E6%A0%87%E9%A2%98%7B%7B%24timestamp%7D%7D&amp;atc_iconid%3A0=&amp;atc_content=%E8%BF%99%E6%98%AF%E5%9B%9E%E5%B8%96%E7%9A%84%E5%86%85%E5%AE%B9%7B%7B%24timestamp%7D%7D&amp;atc_autourl=1&amp;atc_usesign=1&amp;atc_convert=1&amp;atc_rvrc=0&amp;atc_enhidetype=rvrc&amp;atc_money=0&amp;atc_credittype=money&amp;atc_desc1%22=&amp;attachment_1%22=&amp;Content-Type%3Aapplication%2Foctet-stream=&amp;att_special1=0&amp;att_ctype1=money&amp;atc_needrvrc1=0&amp;step=2&amp;pid=&amp;action=reply&amp;fid=0&amp;tid=0&amp;article=&amp;special=0&amp;filename=%22%22</queryString>
+  <java.net.URL>http://localhost/PHPWIND/post.php?</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="0" ts="1635960050282" s="false" lb="8.登出接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="" by="1413" sby="430" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /您已经顺利退出网站/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Wed, 03 Nov 2021 17:20:50 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=8%091635960050%09%2FPHPWIND%2Flogin.php%3Faction%3Dquit%26verify%3D54c8deb7%2520%26http%3A%2F%2Flocalhost%2FPHPWIND%2Flogin.php%3Faction%3Dquit%26verify%3D0; expires=Thu, 03-Nov-2022 17:20:50 GMT; path=/
+Content-Length: 903
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&apos;Content-Type&apos; content=&apos;text/html; charset=utf-8&apos; /&gt;&lt;title&gt;PHPwind&lt;/title&gt;&lt;style type=&apos;text/css&apos;&gt;P,BODY{FONT-FAMILY:tahoma,arial,sans-serif;FONT-SIZE:11px;}A { TEXT-DECORATION: none;}a:hover{ text-decoration: underline;}TD { BORDER-RIGHT: 1px; BORDER-TOP: 0px; FONT-SIZE: 16pt; COLOR: #000000;}&lt;/style&gt;&lt;body&gt;
+
+&lt;table style=&apos;TABLE-LAYOUT:fixed;WORD-WRAP: break-word&apos;&gt;&lt;tr&gt;&lt;td&gt;Cannot use database&lt;br&gt;&lt;br&gt;&lt;b&gt;The URL Is&lt;/b&gt;:&lt;br&gt;http://localhost/PHPWIND/login.php?action=quit&amp;verify=54c8deb7%20&amp;http://localhost/PHPWIND/login.php?action=quit&amp;verify=0&lt;br&gt;&lt;br&gt;&lt;b&gt;MySQL Server Error&lt;/b&gt;:&lt;br&gt;  (  )  &lt;a target=&apos;_blank&apos; href=&apos;http://faq.phpwind.net/mysql.php?id=&apos;&gt;&amp;#26597;&amp;#30475;&amp;#38169;&amp;#35823;&amp;#30456;&amp;#20851;&amp;#20449;&amp;#24687;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;You Can Get Help In&lt;/b&gt;:&lt;br&gt;&lt;a target=&apos;_blank&apos; href=&apos;http://www.phpwind.net&apos;&gt;&lt;b&gt;http://www.phpwind.net&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_lastpos=other; b539c_lastvisit=8%091635960050%09%2FPHPWIND%2Fpost.php%3F</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/login.php?action=quit&amp;verify=54c8deb7%20&amp;http://localhost/PHPWIND/login.php?action=quit&amp;verify=0</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1635960050303" s="true" lb="调试取样器" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="UTF-8" by="327" sby="0" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
+
+</testResults>

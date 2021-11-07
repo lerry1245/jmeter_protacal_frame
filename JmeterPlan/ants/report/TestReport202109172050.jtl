@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2198" it="0" lt="2196" ct="20" ts="1631883011501" s="true" lb="1.登录接口" rc="200" rm="OK" tn="Agelione接口 1-1" dt="text" de="" by="638" sby="320" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:13 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: PHPSESSID=128b43b23d09ab2ef21cedb6ee3de58b; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: username=admin; expires=Sun, 17-Oct-2021 12:50:13 GMT; path=/
+Set-Cookie: password=admin; expires=Sun, 17-Oct-2021 12:50:13 GMT; path=/
+Content-Length: 10
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 44
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Proxy-Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">username=admin&amp;password=admin&amp;savelogin=true</queryString>
+  <java.net.URL>http://localhost/agileone/index.php/common/login</java.net.URL>
+</httpSample>
+<httpSample t="133" it="0" lt="133" ct="0" ts="1631883013708" s="true" lb="2.新增需求提案接口" rc="200" rm="OK" tn="Agelione接口 1-1" dt="text" de="" by="415" sby="605" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:13 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 3
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 244
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Proxy-Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">PHPSESSID=128b43b23d09ab2ef21cedb6ee3de58b; username=admin; password=admin</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">type=Requirement&amp;importance=Medium&amp;headline=%E8%BF%99%E6%98%AF%E9%9C%80%E6%B1%82%E6%8F%90%E6%A1%88%E7%9A%84%E6%A0%87%E9%A2%98-296718&amp;content=%E8%BF%99%E6%98%AF%E9%9C%80%E6%B1%82%E6%8F%90%E6%A1%88%E7%9A%84%E5%86%85%E5%AE%B9-fsjo9l&amp;processresult=</queryString>
+  <java.net.URL>http://localhost/agileone/index.php/proposal/add</java.net.URL>
+</httpSample>
+<httpSample t="121" it="0" lt="120" ct="0" ts="1631883013846" s="true" lb="3.查询需求提案接口" rc="200" rm="OK" tn="Agelione接口 1-1" dt="text" de="" by="11229" sby="387" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:13 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 13
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Proxy-Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">PHPSESSID=128b43b23d09ab2ef21cedb6ee3de58b; username=admin; password=admin</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">currentpage=1</queryString>
+  <java.net.URL>http://localhost/agileone/index.php/proposal/query?currentpage</java.net.URL>
+</httpSample>
+<httpSample t="327" it="0" lt="327" ct="0" ts="1631883013968" s="true" lb="4.编辑需求提案接口" rc="200" rm="OK" tn="Agelione接口 1-1" dt="text" de="" by="413" sby="589" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:14 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 1
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 227
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Proxy-Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">PHPSESSID=128b43b23d09ab2ef21cedb6ee3de58b; username=admin; password=admin</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">proposalid=459&amp;type=Requirement&amp;importance=Medium&amp;headline=This+is+a+headline+of+proposalc95f3473-778e-4cbf-96f1-a07d483f99f7&amp;content=This+is+a+content+of+proposal3d40f9c5-fbf3-4cf3-ad95-50750a291b47&amp;processresult=processresult</queryString>
+  <java.net.URL>http://localhost/agileone/index.php/proposal/edit</java.net.URL>
+</httpSample>
+<httpSample t="131" it="0" lt="131" ct="0" ts="1631883014296" s="true" lb="5.删除需求提案接口" rc="200" rm="OK" tn="Agelione接口 1-1" dt="text" de="" by="413" sby="377" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:14 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Length: 1
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 14
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Proxy-Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">PHPSESSID=128b43b23d09ab2ef21cedb6ee3de58b; username=admin; password=admin</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">proposalid=459</queryString>
+  <java.net.URL>http://localhost/agileone/index.php/proposal/delete</java.net.URL>
+</httpSample>
+<httpSample t="120" it="0" lt="119" ct="0" ts="1631883014427" s="true" lb="6.查询需求提案接口" rc="200" rm="OK" tn="Agelione接口 1-1" dt="text" de="" by="11229" sby="387" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:14 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 13
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost
+Proxy-Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">PHPSESSID=128b43b23d09ab2ef21cedb6ee3de58b; username=admin; password=admin</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">currentpage=1</queryString>
+  <java.net.URL>http://localhost/agileone/index.php/proposal/query?currentpage</java.net.URL>
+</httpSample>
+<httpSample t="116" it="0" lt="116" ct="0" ts="1631883014548" s="true" lb="7.登出接口" rc="302" rm="Found" tn="Agelione接口 1-1" dt="text" de="" by="600" sby="276" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Date: Fri, 17 Sep 2021 12:50:14 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: username=deleted; expires=Thu, 17-Sep-2020 12:50:13 GMT; path=/
+Set-Cookie: password=deleted; expires=Thu, 17-Sep-2020 12:50:13 GMT; path=/
+Location: /agileone/index.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=94
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost
+Proxy-Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">PHPSESSID=128b43b23d09ab2ef21cedb6ee3de58b; username=admin; password=admin</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">/agileone/index.php</redirectLocation>
+  <java.net.URL>http://localhost/agileone/index.php/common/logout</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1631883014667" s="true" lb="调试取样器" rc="200" rm="OK" tn="Agelione接口 1-1" dt="text" de="UTF-8" by="317" sby="0" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
+
+<httpSample t="45" it="0" lt="44" ct="18" ts="1631883016465" s="true" lb="1.登录接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="1733" sby="403" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:16 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2Fphpwind%2Flogin.php%3F; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2Fphpwind%2Flogin.php%3F; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_ck_info=%2F%09; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/; httponly
+Set-Cookie: b539c_lastvisit=deleted; expires=Thu, 17-Sep-2020 12:50:15 GMT; path=/
+Content-Length: 910
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Content-Length: 125
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">forward=&amp;jumpurl=http%3A%2F%2Flocalhost%2FPHPWIND%2Findex.php&amp;step=2&amp;lgt=0&amp;pwuser=a0399&amp;pwpwd=qwe123&amp;hideid=0&amp;cktime=31536000</queryString>
+  <java.net.URL>http://localhost/phpwind/login.php?</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="0" ts="1631883016548" s="true" lb="2.获取发帖VerifyCode" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="49320" sby="363" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:16 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2Fphpwind%2Fpost.php%3Ffid%3D8; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_lastpos=other; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2Fphpwind%2Fpost.php%3Ffid%3D8; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_ol_offset=582; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_ipstate=1631883016; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_ck_info=%2F%09; b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/phpwind/post.php?fid=8</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="28" ct="0" ts="1631883016598" s="true" lb="3.发帖接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="1328" sby="934" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:16 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2Fphpwind%2Fpost.php%3Ffid%3D8; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Content-Length: 926
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Content-Length: 415
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_ck_info=%2F%09; b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D; b539c_lastpos=other; b539c_lastvisit=0%091631883016%09%2Fphpwind%2Fpost.php%3Ffid%3D8; b539c_ol_offset=582; b539c_ipstate=1631883016</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">magicname=&amp;magicid=&amp;verify=b09879b2&amp;atc_title=jmeter%E5%8F%91%E9%80%81%E7%9A%84%E6%A0%87%E9%A2%9878926&amp;atc_iconid=0&amp;atc_content=jmeter%E5%8F%91%E9%80%81%E7%9A%84%E5%86%85%E5%AE%B978926&amp;atc_autourl=1&amp;atc_usesign=1&amp;atc_convert=1&amp;atc_rvrc=0&amp;atc_enhidetype=rvrc&amp;atc_money=0&amp;atc_credittype=money&amp;atc_desc1=&amp;attachment_1=&amp;att_special1=0&amp;att_ctype1=money&amp;atc_needrvrc1=0&amp;step=2&amp;pid=&amp;action=new&amp;fid=8tid&amp;article=0&amp;special=0</queryString>
+  <java.net.URL>http://localhost/phpwind/post.php?fid=8</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="27" ct="0" ts="1631883016627" s="true" lb="4.获取登出verify" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="25278" sby="494" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:16 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=F; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2FPHPWIND%2Fthread.php%3F; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_ck_info=%2F%09; b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D; b539c_lastpos=other; b539c_ol_offset=582; b539c_ipstate=1631883016; b539c_lastvisit=0%091631883016%09%2Fphpwind%2Fpost.php%3Ffid%3D8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/thread.php?</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1631883016656" s="true" lb="5.获取随机fid" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="34674" sby="483" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:16 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=index; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2FPHPWIND%2Findex.php%3F; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_online=deleted; expires=Thu, 17-Sep-2020 12:50:15 GMT; path=/
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_ck_info=%2F%09; b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D; b539c_ol_offset=582; b539c_ipstate=1631883016; b539c_lastpos=F; b539c_lastvisit=0%091631883016%09%2FPHPWIND%2Fthread.php%3F</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/index.php</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="28" ct="0" ts="1631883016688" s="true" lb="6.获取随机tid" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="50788" sby="494" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:16 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=F10; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_lastvisit=0%091631883016%09%2FPHPWIND%2Fthread.php%3Ffid%3D10; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Set-Cookie: b539c_threadlog=%2C10%2C; expires=Sat, 17-Sep-2022 12:50:16 GMT; path=/
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_ck_info=%2F%09; b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D; b539c_ol_offset=582; b539c_ipstate=1631883016; b539c_lastpos=index; b539c_lastvisit=0%091631883016%09%2FPHPWIND%2Findex.php%3F</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/thread.php?fid=10</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="2" ts="1631883024728" s="true" lb="7.回帖接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="1423" sby="1100" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:24 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastpos=other; expires=Sat, 17-Sep-2022 12:50:24 GMT; path=/
+Set-Cookie: b539c_lastvisit=8%091631883024%09%2FPHPWIND%2Fpost.php%3F; expires=Sat, 17-Sep-2022 12:50:24 GMT; path=/
+Content-Length: 947
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Content-Length: 559
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_ck_info=%2F%09; b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D; b539c_ol_offset=582; b539c_ipstate=1631883016; b539c_lastpos=F10; b539c_lastvisit=0%091631883016%09%2FPHPWIND%2Fthread.php%3Ffid%3D10; b539c_threadlog=%2C10%2C</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">magicname=&amp;magicid=&amp;verify=b09879b2&amp;atc_title=Re%3A%E8%BF%99%E6%98%AF%E5%9B%9E%E5%B8%96%E7%9A%84%E6%A0%87%E9%A2%98%7B%7B%24timestamp%7D%7D&amp;atc_iconid%3A0=&amp;atc_content=%E8%BF%99%E6%98%AF%E5%9B%9E%E5%B8%96%E7%9A%84%E5%86%85%E5%AE%B9%7B%7B%24timestamp%7D%7D&amp;atc_autourl=1&amp;atc_usesign=1&amp;atc_convert=1&amp;atc_rvrc=0&amp;atc_enhidetype=rvrc&amp;atc_money=0&amp;atc_credittype=money&amp;atc_desc1%22=&amp;attachment_1%22=&amp;Content-Type%3Aapplication%2Foctet-stream=&amp;att_special1=0&amp;att_ctype1=money&amp;atc_needrvrc1=0&amp;step=2&amp;pid=&amp;action=reply&amp;fid=10&amp;tid=13751&amp;article=&amp;special=0&amp;filename=%22%22</queryString>
+  <java.net.URL>http://localhost/PHPWIND/post.php?</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="0" ts="1631883024759" s="true" lb="8.登出接口" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="1858" sby="605" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 17 Sep 2021 12:50:24 GMT
+Server: Apache/2.2.9 (Win32) DAV/2 mod_ssl/2.2.9 OpenSSL/0.9.8i mod_autoindex_color PHP/5.2.6
+X-Powered-By: PHP/5.2.6
+Set-Cookie: b539c_lastvisit=8%091631883024%09%2FPHPWIND%2Flogin.php%3Faction%3Dquit%26verify%3D54c8deb7%2520%26http%3A%2F%2Flocalhost%2FPHPWIND%2Flogin.php%3Faction%3Dquit%26verify%3D54c8deb7; expires=Sat, 17-Sep-2022 12:50:24 GMT; path=/
+Set-Cookie: b539c_winduser=deleted; expires=Thu, 17-Sep-2020 12:50:23 GMT; path=/; httponly
+Set-Cookie: b539c_hideid=deleted; expires=Thu, 17-Sep-2020 12:50:23 GMT; path=/
+Set-Cookie: b539c_lastvisit=deleted; expires=Thu, 17-Sep-2020 12:50:23 GMT; path=/
+Set-Cookie: b539c_ck_info=deleted; expires=Thu, 17-Sep-2020 12:50:23 GMT; path=/
+Set-Cookie: msghide=deleted; expires=Thu, 17-Sep-2020 12:50:23 GMT; path=/
+Content-Length: 925
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 
+Host: localhost
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">b539c_ck_info=%2F%09; b539c_winduser=W1UDOwQGAQJUDlVXWwZVBAcGBFNXCgMHBVcDVFsFBgkBB1YHaw%3D%3D; b539c_ol_offset=582; b539c_ipstate=1631883016; b539c_threadlog=%2C10%2C; b539c_lastpos=other; b539c_lastvisit=8%091631883024%09%2FPHPWIND%2Fpost.php%3F</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost/PHPWIND/login.php?action=quit&amp;verify=54c8deb7%20&amp;http://localhost/PHPWIND/login.php?action=quit&amp;verify=54c8deb7</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1631883024780" s="true" lb="调试取样器" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="UTF-8" by="610" sby="0" sc="1" ec="0" ng="1" na="1" hn="DESKTOP-J24JD0H">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
+
+</testResults>
